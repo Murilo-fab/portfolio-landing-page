@@ -17,12 +17,12 @@ body {
     background-color: #1F2937;
     padding: 0px 20px 100px 20px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.navbar-logo{
+.navbar img{
     padding: 16px;
-    width: 64px;
+    width: auto;
     height: 64px;
 }
 
@@ -43,25 +43,44 @@ body {
     background-color: #1F2937;
     padding: 90px;
     gap: 32px;
+    justify-content: space-around;
 }
 
 .hero-text {
     font-size: 18px;
+    text-align: left;
 }
 
-.content,
-.placeholder {
+.hero img {
+    height: auto;
+    width: auto;
+    max-height: 300px;
+}
+
+.content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.content img {
+    width: 200px;
+    height: 200px;
+    border: solid;
+    border-radius: 16px;
+    border-color: #3882F6;
+    object-fit: cover;
+    
+}
+
 .info {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
     flex-wrap: wrap;
+    gap: 32px;
+
 }
 
 .quote {
@@ -95,15 +114,6 @@ button {
     background-color: #3882F6;
     padding: 8px 16px;
     font-size: 16px;;
-
-}
-
-.image {
-    width: 160px;
-    height: 160px;
-    border: solid;
-    border-radius: 16px;
-    border-color: #3882F6;
 
 }
 
